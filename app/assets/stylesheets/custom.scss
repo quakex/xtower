@@ -19,7 +19,7 @@ html {
   background-size: cover;
 }
 
-.background_color{
+.background-color{
     background-color: #f4f7ed;
 
     /* Full height */
@@ -52,7 +52,7 @@ html {
     margin-bottom: 40px;
 }
 
-.home_logo {
+.home-logo {
     font-size: 600%;
     color: #fff;
     font-weight: bold;
@@ -117,31 +117,31 @@ html {
     color: #3cbefd;
 }
 
-.sign_in_title, .sign_up_title {
+.sign-title {
     margin-bottom: 20px;
 }
 
-.sign_up_button {
+.sign-button {
     margin-top: 20px;
 }
 
-.direct_sign_in {
+.sign-link {
     color: #aaa;
     font-size: 12px;
 }
 
-.direct_sign_in:hover {
+.sign-link:hover {
     color: #3cdefd;
 }
 
-.direct_sign_in:active,
-.direct_sign_in:active:hover,
-.direct_sign_in:active:focus,
-.direct_sign_in:focus {
+.sign-link:active,
+.sign-link:active:hover,
+.sign-link:active:focus,
+.sign-link:focus {
     color: #3cbefd;
 }
 
-.sign_box {
+.sign-box {
     background-color: #fff;
     padding-left: 30px;
     padding-right: 30px;
@@ -154,7 +154,7 @@ html {
 
 // 加上这个就居中了，好看了，没明白。
 // css也不会，好伤心。
-.sign_in_area, .sign_up_area {
+.sign-in-area, .sign-up-area {
     position: absolute; // 相对于container，坐标系也是相对于container
     top: 45%; // 父元素的45%
     left: 50%;  // 父元素50%
@@ -177,22 +177,10 @@ html {
 .form-check-label {
     font-weight: normal;
     font-size: 12px;
+    color: #aaa;
 }
 
 .forget-button {
-    color: #aaa;
-    font-size: 12px;
-    text-align: right;
     width: 160px;
-}
-
-.forget-button:hover {
-    color: #3cdefd;
-}
-
-.forget-button:active,
-.forget-button:active:hover,
-.forget-button:active:focus,
-.forget-button:focus {
-    color: #3cbefd;
+    text-align: right;
 }
